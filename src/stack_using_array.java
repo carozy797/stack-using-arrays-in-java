@@ -10,6 +10,7 @@ class StackArray{
     boolean isEmpty(){
         return (top == -1);
     }
+    // check if stack is full
     boolean isFull(){
         return (top == LIMIT-1);
     }
