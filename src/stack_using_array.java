@@ -27,6 +27,7 @@ class StackArray{
             return true;
         }
     }
+    // the pop function .... this can be modified to return the pop item
     boolean pop(){
         if(isEmpty()){
             System.out.println("stack underflow");
