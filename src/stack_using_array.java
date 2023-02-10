@@ -6,6 +6,7 @@ class StackArray{
     int LIMIT = 5;
     int[] stack_arr = new int[LIMIT];
     int top = -1;
+    // check if stack is empty ... if top is still -1 then return true
     boolean isEmpty(){
         return (top == -1);
     }
