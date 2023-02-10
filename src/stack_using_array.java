@@ -14,6 +14,7 @@ class StackArray{
     boolean isFull(){
         return (top == LIMIT-1);
     }
+    // the push function in stack
     boolean push(int numb){
         if(isFull()){
             System.out.println("stack overflow");
