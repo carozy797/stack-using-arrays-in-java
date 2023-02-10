@@ -52,7 +52,7 @@ class StackArray{
             return true;
         }
     }
-
+    // print all the elements in the stack array
     void display(){
         System.out.println("displaying element in stack ........");
 
