@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// creating the stackArray class
 class StackArray{
     int LIMIT = 5;
     int[] stack_arr = new int[LIMIT];
