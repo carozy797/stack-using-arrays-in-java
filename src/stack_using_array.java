@@ -40,6 +40,7 @@ class StackArray{
             return true;
         }
     }
+    // examine the last element in the stack at any time
     boolean peek(){
         if(isEmpty()){
             System.out.println("no value in stack yet");
