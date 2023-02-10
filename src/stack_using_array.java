@@ -1,6 +1,8 @@
 import java.util.Scanner;
 // creating the stackArray class
 class StackArray{
+    // LIMIT is the length of the stack
+    // we say top = -1 to mean there is nothing in the stack ... elements are stored from index 0 - LIMIT -1
     int LIMIT = 5;
     int[] stack_arr = new int[LIMIT];
     int top = -1;
